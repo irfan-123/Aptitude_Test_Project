@@ -1,0 +1,33 @@
+#MICRO PROJECT: SOURCE CODE FOR ONLINE APTITUDE TEST
+print  (" Welcome to online aptitude test")
+print ("\nUSER LOGIN")
+username=raw_input("Enter your name :")
+reg_no=input("Enter your register number :")
+f=open("database.txt","w")
+f.write("Name:%s" %username)
+f.write("Register number:%s"%reg_no)
+count=0
+print('\nQ1.The ratio of width of our National flag to its length is')
+print('1 .3:5\n2.2:3\n3.2:4\n4.3:4')
+a1=input('Enter your choice:')
+if a1 == 2:		
+	count=count+1
+print("\nQ2.Rabindranath Tagore's Jana Gana Mana has been adopted as India's National Anthem. How many stanzas of the said song were adopted?")
+print('1.Only the first stanza\n2.The whole song\n3.Third and fourth stanza\n4.First and Second stanza')
+a2=input('Enter your choice:')
+if a2 == 1:
+	count=count+1
+print('\nQ3.The words Satyameva Jayatae inscribed below the base the plate of the emblem of India are taken from')
+print('1.Rigveda\n2.Satpath Brahmana\n3.Mundak Upanishad\n4.Ramayana')
+a3=input('Enter your choice:')
+if a3 == 3:
+	count=count+1
+
+print('\nQ4.The National Anthem was first sung in the year')
+print('1.1911\n2.1912\n3.1936\n4.1935')
+a4=input('Enter your choice:')
+if a4 == 2:
+	count=count+1
+
+print('\nQ5.The National Song was composed by')
+print('1.Rabindrana
